@@ -11,7 +11,6 @@ public class reservation extends JFrame {
 	private JButton btn1 = new JButton("대출");
 	private JButton btn2 = new JButton("예약");
 	private JButton btn3 = new JButton("연장");
-	private JButton btn_home = new JButton("홈");
 	private JPanel MPanel = new JPanel();
 	private JTextField tf = new JTextField(18);
 	private JButton keyborad_sn = new JButton("입력");
@@ -25,13 +24,6 @@ public class reservation extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(null);
-
-		// 리스너 달기
-		btn1.addActionListener(new inActionListener());
-		btn2.addActionListener(new inActionListener());
-		btn3.addActionListener(new inActionListener());
-		keyborad_sn.addActionListener(new keyboardActionListener());
-		btn_home.addActionListener(new inActionListener());
 
 		// 버튼 설정
 		btn1.setLocation(1, 0);
@@ -92,6 +84,13 @@ public class reservation extends JFrame {
 		btn_home.setSize(210, 100);
 		btn_home.setLocation(363, 670);
 
+		// 리스너 달기
+		btn1.addActionListener(new inActionListener());
+		btn2.addActionListener(new inActionListener());
+		btn3.addActionListener(new inActionListener());
+		keyborad_sn.addActionListener(new keyboardActionListener());
+		btn_home.addActionListener(new inActionListener());
+		
 		c.add(btn1);
 		c.add(btn2);
 		c.add(btn3);
