@@ -30,11 +30,7 @@ public class returnBook extends JFrame  {
       label.setOpaque(true);
       label.setBackground(new Color(255, 204, 153));
 
-      // Font big_font = new Font("a가을운동회M", Font.BOLD, 45);
-      // Font big_font = new Font("a굴림헤드B", Font.BOLD, 45);
-      // Font big_font = new Font("a시나브로M", Font.BOLD, 45);
-      // Font big_font = new Font("a아시아헤드4", Font.BOLD, 45);
-      Font big_font = new Font("a옛날사진관4", Font.BOLD, 45);
+      Font big_font = new Font("NanumSquare", Font.BOLD, 45);
       label.setFont(big_font);
 
       // 도서id 라벨
@@ -42,7 +38,7 @@ public class returnBook extends JFrame  {
       bookID.setLocation(130, 315);
 
       // 라벨 사이즈 및 폰트 지정
-      Font font_all = new Font("a옛날사진관2", Font.BOLD, 25);
+      Font font_all = new Font("NanumSquare", Font.BOLD, 25);
       labelTitle.setSize(400, 30);
       labelTitle.setFont(font_all);
       labelTitle.setLocation(150, 200);
