@@ -32,12 +32,8 @@ public class login extends JFrame {
 		label.setHorizontalAlignment(JLabel.CENTER);
 		label.setOpaque(true);
 		label.setBackground(new Color(255, 204, 153));
-
-		//Font big_font = new Font("a가을운동회M", Font.BOLD, 45);
-		//Font big_font = new Font("a굴림헤드B", Font.BOLD, 45);
-		//Font big_font = new Font("a시나브로M", Font.BOLD, 45);
-		//Font big_font = new Font("a아시아헤드4", Font.BOLD, 45);
-		Font big_font = new Font("a옛날사진관4", Font.BOLD, 45);
+		
+		Font big_font = new Font("NanumSquare", Font.BOLD, 45);
 		label.setFont(big_font);
 
 		// 라벨 사이즈 및 폰트 지정
@@ -205,7 +201,7 @@ public class login extends JFrame {
 			p1.setLocation(0, 55);
 
 			// 입력 글씨 글꼴 및 글씨 크기
-			Font font1 = new Font("a옛날사진관2", Font.BOLD, 20);
+			Font font1 = new Font("NanumSquare", Font.BOLD, 20);
 			input.setFont(font1);
 			input.setSize(100, 50);
 
@@ -394,7 +390,7 @@ public class login extends JFrame {
 					for (int i = 10; i < 37; ++i) {
 						btn_key[i].setText(key[i]);
 					}
-					btn_key[36].setText(key[36]);
+					btn_key[36].setText(key[36]
 				} else if (b.getText().equals("특수기호")) {
 					for (int i = 0; i < 10; ++i) {
 						btn_key[i].setText(special_key[i]);
@@ -439,7 +435,7 @@ public class login extends JFrame {
 			label.setHorizontalAlignment(JLabel.CENTER);
 			label.setOpaque(true);
 			label.setBackground(new Color(255, 204, 153));
-			Font big_font = new Font("a옛날사진관4", Font.BOLD, 30);
+			Font big_font = new Font("NanumSquare", Font.BOLD, 30);
 			label.setFont(big_font);
 
 			// 입력확인창
@@ -450,7 +446,7 @@ public class login extends JFrame {
 			p1.setLocation(0, 55);
 
 			// 입력 글씨 글꼴 및 글씨 크기
-			Font font1 = new Font("a옛날사진관2", Font.BOLD, 20);
+			Font font1 = new Font("NanumSquare", Font.BOLD, 20);
 			input.setFont(font1);
 			input.setSize(100, 50);
 
