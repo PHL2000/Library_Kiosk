@@ -63,7 +63,7 @@ public class library_main extends JFrame {
 		btn_manager.addActionListener(new inActionListener());
 
 		// 폰트 설정
-		Font t_font = new Font("a옛날사진관5", Font.BOLD, 40);
+		Font t_font = new Font("NanumSquare", Font.BOLD, 40);
 		Font btn1_font = new Font("NanumSquare", Font.BOLD, 25);
 		Font btn2_font = new Font("NanumSquare", Font.BOLD, 25);
 
