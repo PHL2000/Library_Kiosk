@@ -15,7 +15,7 @@ public class borrow extends JFrame{
 	private JLabel bookId = new JLabel("도서ID");
 	private JTextField bookIdtf = new JTextField(18);
 	private JButton borrow = new JButton("대출");
-	private JButton btn_home = new JButton("홈");
+	private JButton btn_home = new JButton("Home");
 
 	public borrow() {
 		setTitle("대출");
@@ -65,7 +65,8 @@ public class borrow extends JFrame{
 		borrow.setFont(big_font);
 		borrow.setForeground(new Color(255,255,255));
 		borrow.setBackground(new Color(255,153,051));
-//         borrow.setSize(210,100);
+
+		// borrow.setSize(210,100);
 		borrow.setSize(193, 96);
 		borrow.setLocation(250, 400);
 
